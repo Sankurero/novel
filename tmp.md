@@ -1,0 +1,25 @@
+<div class="tate pd2">
+「あいうえお」<br>
+「かきくけこ」<br>
+ちゃんと縦書きに<br>なっていますね。<br>
+<ruby>今日<rt>きょう</rt></ruby>〜
+<ruby>来月末<rt>らいげつまつ</rt></ruby>
+までの間に<br>一定の結論を出したい！<br>
+令和<span>3</span>年<span>2</span>月<span>18</span>日 のぶちゃん
+</div>
+
+<style>
+.tate {
+  writing-mode: vertical-rl;
+  margin: 0 auto;
+  padding: 0.7em;
+  border: 1px solid #ddd;
+  box-shadow: 5px 4px 15px -5px #777777;
+  border-radius: 15px;
+}
+.tate span {
+  writing-mode: horizontal-tb;
+}
+.pd2 {font-size:1.2em;}
+
+</style>
